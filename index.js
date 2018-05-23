@@ -1,11 +1,21 @@
 var cart = [];
 
+<<<<<<< HEAD
 function getRandom(){
   return Math.floor(Math.random() * 100) 
   
 }
  function setCart(newCart) {
      cart = newCart;
+=======
+function randomNumber(){
+  Math.floor(Math.random() * 100)
+    
+}
+
+ function setCart(newCart) {
+    cart = newCart;
+>>>>>>> e55e1048b7f6e5db3522193c1e14ecd8aea1480d
  }
 
 function getCart() {
@@ -14,6 +24,7 @@ function getCart() {
 
 function addToCart(item) {
     cart.push({itemName: item,
+<<<<<<< HEAD
                itemPrice: getRandom()
     })
   return `${item} has been added to your cart.`
@@ -93,3 +104,22 @@ function removeItemFromCart(itemToRemove) {
   getCart().splice(indexOfItemToRemove,1)
 }
 
+=======
+               itemPrice: randomNumber()
+    })
+}
+
+function viewCart() {
+
+}
+
+function removeFromCart(item) {
+
+
+function placeOrder(cardNumber) {
+
+  }
+
+
+}
+>>>>>>> e55e1048b7f6e5db3522193c1e14ecd8aea1480d
